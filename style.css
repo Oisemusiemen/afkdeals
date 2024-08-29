@@ -19,7 +19,7 @@ body {
   margin-top: 48px;
   margin-bottom: 175px;
   background: #00000000;
-  color: rgb(109, 83, 83);
+  color: rgba(109, 83, 83, 1);
   font-size: 16px;
 }
 .main {
@@ -79,7 +79,7 @@ body {
     border: #00000000;
   }
   .search-icon{
-    width:30px;
+    widows: 26px;
 
 
   }
@@ -87,15 +87,16 @@ body {
     width: 50px;
     padding-left: 55px;
   }
-@media (max-width: 780px) {
+@media (max-width: 700px) {
   body{
     width: 100;
   }
   .search-bar{
-    width: 340px;
+    width: 327px;
 
       margin-left: 10px;
     margin-right: 10px;
+    padding-right: 4px;
  
   }
   .product-parent{
