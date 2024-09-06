@@ -26,14 +26,14 @@
   margin: 0;
 }
 
-.animals {
+.product {
   font-size: 1.2em;
   padding: 10px;
   border-bottom: 1px solid #ccc;
   animation: fadeIn 0.5s ease-in-out;
 }
 
-.animals:last-child {
+.product:last-child {
   border-bottom: none;
 }
 
@@ -126,12 +126,7 @@ outline:none;
   border: none;
 }
 
-  #searcjhbar{
-    width: 600px;
-      outline: none;
-      border: none;
-      background-color: #00000000;
-  }
+
 
 @media (max-width: 780px) {
   body{
