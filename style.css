@@ -1,7 +1,19 @@
+
+body {
+  margin: 0%;
+  padding-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: linear-gradient(
+    rgba(250, 195, 122, 0.411),
+    rgb(221, 164, 164),
+    rgb(221, 149, 149)
+  );
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 
@@ -49,15 +61,6 @@
   }
 }
 
-body {
-  margin: 0%;
-  padding-top: 100px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-image: linear-gradient(
-    rgba(250, 195, 122, 0.411),
-    rgb(221, 164, 164)
-  );
-}
 #searchbar {
   width: 700px;
   border-radius: 8px;
@@ -92,6 +95,8 @@ outline:none;
   border-radius: 10px;
   backdrop-filter: blur(0px);
   padding-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .product-div {
@@ -110,7 +115,7 @@ outline:none;
   border-radius: 8px;
 }
 .check-out-btn {
-  background-color: rgb(73, 240, 7);
+  background-color: rgb(72, 255, 0);
   color: rgb(0, 0, 0);
   width: 100px;
   height: 30px;
@@ -118,6 +123,17 @@ outline:none;
   border-radius: 6px;
   border: none;
   margin-top: 13px;
+}
+.check-out-btn:hover{
+  background-color: rgba(89, 252, 25, 0.733);  
+  width: 95px;
+  height: 28px;
+}
+.check-out-btn:active{
+   background-color: rgb(72, 255, 0);
+  color: rgb(0, 0, 0);
+  width: 100px;
+  height: 30px;
 }
 .product-name{
   margin-top: 10px;
