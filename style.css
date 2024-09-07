@@ -49,13 +49,6 @@
   }
 }
 
-
-
-
-
-
-
-
 body {
   margin: 0%;
   padding-top: 100px;
@@ -124,15 +117,22 @@ outline:none;
   cursor: pointer;
   border-radius: 6px;
   border: none;
+  margin-top: 13px;
 }
-
-
+.product-name{
+  margin-top: 10px;
+  font-weight:20px ;
+}
+.price{
+  margin-top: 10px;
+  color: #0000008a;
+}
 
 @media (max-width: 780px) {
   body{
     width: 100;
   }
-  .search-bar{
+  #searchbar{
     width: 327px;
 
       margin-left: 10px;
